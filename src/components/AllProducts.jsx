@@ -30,7 +30,7 @@ const AllProducts = () => {
             />
             <div class="card-body">
               <h5 class="card-title">Fan</h5>
-              <p class="number of guests">Price : $4</p>
+              <p class="number of guests">Price : $9</p>
               <button className="btn btn-primary">Add To Cart</button>
             </div>
           </div>
