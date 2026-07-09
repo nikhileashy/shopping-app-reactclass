@@ -12,7 +12,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-  {/* <Route index element={<AddEmployee />} /> */}
+  <Route index element={<AddProduct />} />
   <Route path="add" element={<AddProduct />} />
   <Route path="all" element={<AllProducts />} />
   <Route path="search" element={<SearchProduct />} />
