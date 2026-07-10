@@ -4,9 +4,11 @@ import NavBar from "./NavBar";
 const AllProducts = () => {
   return (
     <div>
-        <NavBar/>
-        <center><h1 style={{marginTop:30}}>ALL PRODUCTS</h1></center>
-      <div class="row g-3" style={{padding:50}}>
+      <NavBar />
+      <center>
+        <h1 style={{ marginTop: 30 }} className="bebas-neue-regular">ALL PRODUCTS</h1>
+      </center>
+      <div class="row g-3" style={{ padding: 50 }}>
         <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
           <div class="card">
             <img
@@ -17,7 +19,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -31,7 +38,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Fan</h5>
               <p class="number of guests">Price : $9</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -45,7 +57,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Buds</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -59,7 +76,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Trimmer</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -73,7 +95,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -87,7 +114,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -101,7 +133,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -115,7 +152,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -129,7 +171,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -143,7 +190,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -157,7 +209,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -171,7 +228,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -185,7 +247,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
@@ -199,7 +266,12 @@ const AllProducts = () => {
             <div class="card-body">
               <h5 class="card-title">Bag</h5>
               <p class="number of guests">Price : $4</p>
-              <button className="btn btn-primary">Add To Cart</button>
+              <button className="btn btn-primary" style={{display:"flex",alignItems:"center"}}>
+                Add To Cart{" "}
+                <span className="material-symbols-outlined" style={{margin: 5,scale:0.8, paddingBottom:-115}}>
+                  add_shopping_cart
+                </span>
+              </button>
             </div>
           </div>
         </div>
