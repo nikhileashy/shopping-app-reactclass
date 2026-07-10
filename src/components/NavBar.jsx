@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container-fluid">
-        <a
+        <Link
           class="navbar-brand"
-          href="#"
+          to="#"
           style={{
             display: "flex",
             alignItems: "center",
@@ -19,7 +20,7 @@ const NavBar = () => {
           {/* <span class="material-symbols-outlined" style={{ marginLeft: 5 }}>
             shopping_bag_speed
           </span> */}
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -33,18 +34,18 @@ const NavBar = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/add">
+            <Link class="nav-link active" aria-current="page" to="/add">
               Add Product
-            </a>
-            <a class="nav-link active" aria-current="page" href="/all">
+            </Link>
+            <Link class="nav-link active" aria-current="page" to="/all">
               All Product
-            </a>
-            <a class="nav-link" href="/search">
+            </Link>
+            <Link class="nav-link" to="/search">
               Search Product
-            </a>
-            <a class="nav-link" href="/delete">
+            </Link>
+            <Link class="nav-link" to="/delete">
               Delete Product
-            </a>
+            </Link>
           </div>
         </div>
       </div>
